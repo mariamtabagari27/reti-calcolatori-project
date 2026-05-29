@@ -14,8 +14,6 @@ The purpose of the project is to demonstrate the use of:
 * hostname resolution
 * client-server architecture
 
----
-
 ## Files Included
 
 ### server-UDP_g36.c
@@ -42,7 +40,6 @@ TCP server that:
 * continuously processes incoming strings
 * terminates communication when the number of vowels is even
 
----
 
 ## Technologies Used
 
@@ -52,7 +49,6 @@ TCP server that:
 * UDP Protocol
 * TCP Protocol
 
----
 
 ## Main Networking Functions Used
 
@@ -67,7 +63,6 @@ TCP server that:
 * `getaddrinfo()`
 * `gethostbyaddr()`
 
----
 
 ## Compilation
 
@@ -87,7 +82,6 @@ gcc client-UDP_g36.c -o clientUDP.exe -lws2_32
 gcc server-TCP_g36.c -o serverTCP.exe -lws2_32
 ```
 
----
 
 ## Execution
 
@@ -109,7 +103,6 @@ Run TCP server:
 ./serverTCP
 ```
 
----
 
 ## Networking Concepts Demonstrated
 
@@ -120,9 +113,9 @@ Run TCP server:
 * Data transmission through sockets
 * String processing in C
 
----
 
-## Author
+## 
 
 Mariam Tabagari
-Project developed for the course "Reti di Calcolatori".
+For code development used Visual Studio Code and not Eclipse.
+Project developed for the course - Reti di Calcolatori MZ
